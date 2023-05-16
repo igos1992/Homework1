@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,55 +14,63 @@
 
 <body>
     <header class="top center">
-        <h1 class="tittle">Добро пожаловать<br> на мой сайт !</h1>
-        <p class="text">Вам предстоит пройти несколько увлекательных<br> игр. Если готов нажимай <span class="search">поехали</span> и <span class="search">приступай</span></p>
+        <h1 class="top__tittle">Добро пожаловать<br> на мой сайт !</h1>
+        <p class="text">Вам предстоит пройти несколько увлекательных<br> игр. Если готов нажимай <span
+                class="search">поехали</span> и <span class="search">приступай</span></p>
         <button class="button">Поехали!</button>
     </header>
 
-    <section class="games center">
-        <div class="item1">
-            <a href="#" class="games-link">Игра 1</a>
+    <div class="games center">
+        <div class="games__item1">
+            <a href="#" class="games__link">Игра 1</a>
         </div>
-        <div class="item2">
-            <a href="#" class="games-link">Игра 2</a>
+        <div class="games__item2">
+            <a href="#" class="games__link">Игра 2</a>
         </div>
-        <div class="item3">
-            <a href="#" class="games-link">Игра 3</a>
+        <div class="games__item3">
+            <a href="#" class="games__link">Игра 3</a>
         </div>
-    </section>
+    </div>
 
     <section class="game1 center">
-        <div class="description-game1">
+        <div class="game1__description">
             <h2 class="heading">Времена года</h2>
-            <p class="text">Вам предстоит пройти несколько увлекательных<br> игр. Если готов нажимай <span class="search">поехали</span> и <span class="search">приступай</span></p>
+            <p class="text">Вам предстоит пройти несколько увлекательных<br> игр. Если готов нажимай <span
+                    class="search">поехали</span> и <span class="search">приступай</span></p>
             <button class="button">Поехали!</button>
         </div>
-        <div class="img-game1">
-            <img src="image/image1.svg" alt="image">
+        <div class="game1__img">
+            <img class="img" src="image/image1.svg" alt="image">
         </div>
     </section>
 
     <section class="game2 center">
-        <div class="img-game2">
-            <img src="image/image2.svg" alt="image">
+        <div class="game2__img">
+            <img class="img" src="image/image2.svg" alt="image">
         </div>
-        <div class="description-game2">
-            <h2 class="heading">Запомни слова </h2>
-            <p class="text">При нажатии на кнопку играть, вы увидите несколько слов,<br> которые вам необходимо запомнить.</p>
+        <div class="game2__description">
+            <h2 class="heading game2__heading">Запомни слова </h2>
+            <p class="text">При нажатии на кнопку играть, вы увидите несколько слов,<br> которые вам необходимо
+                запомнить.</p>
             <button class="button">Играть!</button>
         </div>
     </section>
+
     <section class="game3 center">
-        <div class="description-game3">
-            <h2 class="game3-heading">Игра в загадки</h2>
-            <p class="text">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам <span class="game3-search">подсказку. У вас будет три попытки и две подсказки.</span></p>
+        <div class="game3__description">
+            <h2 class="heading">Игра в загадки</h2>
+            <p class="text">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ,
+                то компьютер даст вам <span class="game3__search">подсказку. У вас будет три попытки и две
+                    подсказки.</span></p>
             <button class="button">Играть!</button>
         </div>
     </section>
-    
+
     <footer class="footer center">
-        <p class="footer-text">Все права защищены</p>
+        <p class="text footer__text">Все права защищены</p>
     </footer>
-    
+
+    <script src="hw-3.js"></script>
 </body>
+
 </html>
