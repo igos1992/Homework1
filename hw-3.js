@@ -1,14 +1,13 @@
-//Задание 1
+// Задание 1
 let password = 1234;
 let enterPassword = Number(prompt('Введите пароль'));
-if(password = 1234){
-    password = 'Пароль введен верно';
+if (password === enterPassword) {
+    alert('Пароль введен верно');
 } else {
-    password = 'Пароль введен неправильно';
+    alert('Пароль введен неправильно');
 }
-alert(password);
 
-//Задание 2
+// Задание 2
 let c = 15;
 if (c >= 0 && c <= 10) {
     console.log('Верно');
@@ -16,7 +15,7 @@ if (c >= 0 && c <= 10) {
     console.log('Неверно');
 }
 
-//Задание 3
+// Задание 3
 let d = 147;
 let e = 32;
 if (d > 100 || e > 100) {
@@ -25,12 +24,12 @@ if (d > 100 || e > 100) {
     console.log('Неверно');
 }
 
-//Задание 4
+// Задание 4
 let a = '2';
 let b = '3';
 alert(Number(a) + Number(b));
 
-//Задание 5
+// Задание 5
 let monthNumber = String(prompt('Введите номер месяца'));
 switch (monthNumber) {
     case '1':
@@ -60,20 +59,21 @@ switch (monthNumber) {
 
 // Задание 6 "Адаптивная верстка игрового сайта c добавление эфектов наведения"
 
-//Ниже дополнительные задание
+// Ниже дополнительные задание
 
 // Задание 7
 
-let evenOdd = String(prompt('Пожалуйста, введите любое число'));
+let evenOdd = Number(prompt('Пожалуйста, введите любое число'));
 
+if (typeof evenOdd === 'number') {
+    console.log(evenOdd)
+} else {
+    console.log(Number.isNaN(evenOdd));
+}
 if (evenOdd % 2 === 0) {
-    console.log("Является числом")
     alert("Число четное");
-} else if (evenOdd % 2 === 1, 3, 5, 7, 9) {
-    console.log("Является числом");
-    alert("Не четное");
-} else if (evenOdd !== String) {
-    console.log("Не является числом");
+} else if (evenOdd % 2 != 0) {
+    alert("Число нечетное");
 }
 
 // Задание 8
@@ -97,4 +97,3 @@ if (clientDeviceYear < 2015 && clientOS === 0) {
 } else if (clientDeviceYear > 2015 && clientOS === 1) {
     alert("Установите версию приложения для Android по ссылке");
 }
- 
