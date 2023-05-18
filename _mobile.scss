@@ -1,0 +1,111 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .text {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    br {
+        display: none;
+    }
+
+    .button {
+        margin-top: 32px;
+    }
+
+    .heading {
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+    }
+
+    .img {
+        width: 344px;
+        height: 236px;
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 735px;
+
+        &__tittle {
+            font-size: 32px;
+            line-height: 39px;
+            padding-top: 238px;
+            text-align: center;
+        }
+    }
+
+    .games {
+        &__item1 {
+            width: 343px;
+        }
+
+        &__item2 {
+            width: 343px;
+        }
+
+        &__item3 {
+            width: 343px;
+        }
+    }
+
+    .game1 {
+        &__description {
+            margin-top: 51px;
+            margin-bottom: 0;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        &__img {
+            margin-top: 64px;
+            margin-bottom: 0;
+        }
+    }
+
+    .game2 {
+        display: flex;
+        flex-direction: column-reverse;
+
+        &__img {
+            margin-top: 64px;
+            margin-bottom: 0;
+        }
+
+        &__description {
+            margin-top: 0;
+            margin-bottom: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__heading {
+            padding-top: 138px;
+        }
+    }
+
+    .game3 {
+        &__description {
+            margin-top: 141px;
+            margin-bottom: 0;
+        }
+    }
+
+    .footer {
+        &__text {
+            padding-top: 520px;
+        }
+    }
+}
