@@ -14,7 +14,6 @@ let findTheReason = [1, 5, 4, 10, 0, 3];
 let search = findTheReason.includes(4);
 console.log(search);
 
-
 // Задание 3 - Выполнено
 
 let withoutSpaces = [1, 3, 5, 10, 20];
@@ -61,7 +60,6 @@ for (let i = 0; i < num.length; i++) {
   }
 };
 
-
 // Задание 8 - Выполнено
 
 let reflection = 'abcdef';
@@ -98,7 +96,6 @@ function square(array) {
 let numbers = [20, 2, 3, 4];
 console.log(square(numbers));
 
-
 // Задание 12 - Выполнено
 
 function longWords(count) {
@@ -106,7 +103,6 @@ function longWords(count) {
 };
 let wordLength = ['еле', 'еле', 'получилось', 'сделать', 'эту функцию'];
 console.log(longWords(wordLength));
-
 
 // Задание 13 Выполнено
 
@@ -125,7 +121,6 @@ for(i = 0; i < 10; i++) {
 }
 console.log(evenNumbers);
 console.log(evenNumbers.filter(i => i % 2 === 0));
-
 
 // Дополнительное задание 15
 
