@@ -35,7 +35,6 @@ body {
   width: 234px;
   height: 48px;
 }
-
 .button:hover {
   cursor: url("image/Vector.svg"), auto;
 }
@@ -58,7 +57,6 @@ body {
   background-position: center;
   background-size: cover;
 }
-
 .top__tittle {
   font-weight: 700;
   font-size: 64px;
@@ -78,46 +76,39 @@ body {
   padding-top: 128px;
   padding-bottom: 128px;
 }
-
 .games__item1 {
   width: 378px;
   height: 300px;
   background-image: url(image/game1.jpg);
   border-radius: 16px;
 }
-
 .games__item1:hover {
   cursor: url(image/Vector.svg), auto;
   border: 1px solid #44D2FF;
   border-radius: 18px;
 }
-
 .games__item2 {
   width: 378px;
   height: 300px;
   background-image: url(image/game2.jpg);
   border-radius: 16px;
 }
-
 .games__item2:hover {
   cursor: url(image/Vector.svg), auto;
   border: 1px solid #44D2FF;
   border-radius: 18px;
 }
-
 .games__item3 {
   width: 378px;
   height: 300px;
   background-image: url(image/game3.jpg);
   border-radius: 16px;
 }
-
 .games__item3:hover {
   cursor: url(image/Vector.svg), auto;
   border: 1px solid #44D2FF;
   border-radius: 18px;
 }
-
 .games__link {
   display: flex;
   font-style: normal;
@@ -125,11 +116,10 @@ body {
   font-size: 24px;
   line-height: 32px;
   color: #FFFFFF;
-  margin-left: 32px;
-  margin-top: 236px;
-  align-items: end;
+  padding-left: 32px;
+  padding-top: 236px;
+  padding-bottom: 32px;
 }
-
 .games__link:hover {
   cursor: url(image/Vector.svg), auto;
 }
@@ -143,12 +133,10 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .game1__description {
   margin-top: 276px;
   margin-bottom: 276px;
 }
-
 .game1__img {
   margin-top: 234px;
   margin-bottom: 234px;
@@ -163,12 +151,10 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .game2__img {
   margin-top: 240px;
   margin-bottom: 240px;
 }
-
 .game2__description {
   margin-top: 282px;
   margin-bottom: 282px;
@@ -184,7 +170,6 @@ body {
   align-items: center;
   justify-content: space-around;
 }
-
 .game3__description {
   display: flex;
   flex-direction: column;
@@ -193,7 +178,6 @@ body {
   margin-top: 276px;
   margin-bottom: 282px;
 }
-
 .game3__search {
   display: flex;
   flex-wrap: wrap;
@@ -210,7 +194,6 @@ body {
   align-items: center;
   justify-content: space-around;
 }
-
 .footer__text {
   font-weight: 400;
   font-size: 12px;
@@ -225,32 +208,26 @@ body {
     padding-left: 16px;
     padding-right: 16px;
   }
-
   .text {
     font-size: 14px;
     line-height: 22px;
     text-align: center;
   }
-
   br {
     display: none;
   }
-
   .button {
     margin-top: 32px;
   }
-
   .heading {
     font-size: 32px;
     line-height: 39px;
     text-align: center;
   }
-
   .img {
     width: 344px;
     height: 236px;
   }
-
   .top {
     display: flex;
     flex-direction: column;
@@ -258,26 +235,21 @@ body {
     align-items: center;
     height: 735px;
   }
-
   .top__tittle {
     font-size: 32px;
     line-height: 39px;
     padding-top: 238px;
     text-align: center;
   }
-
   .games__item1 {
     width: 343px;
   }
-
   .games__item2 {
     width: 343px;
   }
-
   .games__item3 {
     width: 343px;
   }
-
   .game1__description {
     margin-top: 51px;
     margin-bottom: 0;
@@ -286,22 +258,18 @@ body {
     flex-wrap: wrap;
     align-items: center;
   }
-
   .game1__img {
     margin-top: 64px;
     margin-bottom: 0;
   }
-
   .game2 {
     display: flex;
     flex-direction: column-reverse;
   }
-
   .game2__img {
     margin-top: 64px;
     margin-bottom: 0;
   }
-
   .game2__description {
     margin-top: 0;
     margin-bottom: 0;
@@ -309,19 +277,14 @@ body {
     flex-direction: column;
     align-items: center;
   }
-
   .game2__heading {
     padding-top: 138px;
   }
-
   .game3__description {
     margin-top: 141px;
     margin-bottom: 0;
   }
-
   .footer__text {
     padding-top: 520px;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
