@@ -136,5 +136,3 @@ for(i = 0; i < 10; i++) {
 
 console.log(firstAdditional);
 console.log(firstAdditional.reduce((a, b) => (a + b)) / firstAdditional.length);
-
-
