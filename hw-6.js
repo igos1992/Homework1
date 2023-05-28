@@ -40,7 +40,6 @@ let a = [1, 1, 1];
 a.push(2, 2, 2);
 console.log(a);
 
-
 // Задание 6 - Выполнено
 
 let sortingAndDeleting = [9, 8, 7, 'a', 6, 5];
